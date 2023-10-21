@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#container{    
+    width: 100%;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:10px;
+}
+.card{
+    width: auto;
+    margin:auto;
+    background-color: rgb(253, 251, 251);
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px gray;
+    margin-top: 10px;
+    
+}
+.qrcode{
+    padding: 20px;
+}
+.qrcode img{
+    height: 320px;
+    width: 300px;
+    border-radius: 15px;
+}
+.textarea{
+    text-align: center;
+    padding: 5px;
+    font-family: calibri;
+    padding-bottom: 50px;
+}
+.text2{
+    padding-top: 15px;
+    color: hsl(220, 15%, 55%);
+}
